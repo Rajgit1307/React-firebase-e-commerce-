@@ -4,6 +4,7 @@ import mycontext from '../../context/data/MyContext';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Layout from '../../components/layout/Layout';
+import AddtoCart from '../../redux/CartSlice';
 
 
 function AllProduct() {
